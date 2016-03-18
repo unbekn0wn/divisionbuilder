@@ -11,5 +11,20 @@ body {
 
 .row {
 	background-color: #b3b3b3;
-	height: 200px;
+}
+
+.col-33 {
+	background-color: #800;
+	width: 33.33333333%;
+	padding: 2px;
+}
+
+.gear {
+	background-color: #0000cc;
+	height: 400px;
+}
+
+.itemname {
+	background-color: #fff;
+	max-width: 200px;
 }
