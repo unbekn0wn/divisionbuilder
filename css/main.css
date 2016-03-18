@@ -18,7 +18,6 @@ body {
 }
 
 .row {
-	background-color: #b3b3b3;
 	margin-right: -10px;
 	margin-left: -10px;
 }
@@ -41,4 +40,10 @@ body {
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
+}
+
+.ilvl {
+	background-color: #cca300;
+	width: 30px;
+	float: right;
 }
