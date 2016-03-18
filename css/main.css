@@ -36,14 +36,49 @@ body {
 	height: 400px;
 }
 
-.gear > .row > h3{
+.title {
 	text-align: center;
-	padding: 0px;
-	margin: 0px;
+	background-color: #fff;
+	border: 2px solid;
+	border-color: #000;
 }
 
-.ilvl {
-	background-color: #cca300;
-	width: 30px;
-	float: right;
+.item-select {
+	display: block;
+	background-color: #8c8c8c;
+	width: 40%;
+	padding-left: 5px;
+	float: left;
+}
+
+.item-select:hover {
+	background-color: #666;
+}
+
+.grade-select {
+	display: block;
+	background-color: #8c8c8c;
+	width: 40%;
+	padding-left: 5px;
+	float: left;
+}
+
+.grade-select:hover {
+	background-color: #666;
+}
+
+.ilvl-select {
+	display: block;
+	background-color: #8c8c8c;
+	width: 20%;
+	padding-left: 5px;
+	float: left;	
+}
+
+.ilvl-select:hover {
+	background-color: #666;
+}
+
+a {
+	cursor: pointer;
 }
