@@ -16,12 +16,12 @@ body {
 .col-33 {
 	background-color: #800;
 	width: 33.33333333%;
-	padding: 2px;
 }
 
 .gear {
 	background-color: #0000cc;
 	height: 400px;
+	margin: 2px;
 }
 
 .itemname {
