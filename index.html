@@ -2,31 +2,29 @@
 <html lang="en">
 <head>
 	<title>DivisionPlanner</title>
-	<!-- Load CSS styles -->
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700' rel='stylesheet' type='text/css'>
-	<link href="css/main.css" rel="stylesheet">
-  </head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
 
-  <body>
-  	<div class="wrapper">
-  		<div class="row">
-	  		<div class="col-33">
-	  			<div class="gear">
-	  				<div class="title">
-	  					<strong>Mask</strong>
-	  				</div>
+	<div class="container">
+		<div class="row">
+  		<div class="col-md-4">
+  			<div class="gear">
+  			  <h1 class="title">Mask</h1>
 					<a class="item-select">Select an Item</a>
 					<input class="ilvl-input" type="number" min="30" max="31">
-					<div class="stat-block" id="armor"><h1>666 Armor</h1></div>
-					<div class="stat-block" id="primary">
-						<div class="col-33">
+          <h1 class="armor">666 Armor</h1>
+					<div class="row">
+						<div class="col-md-4">
 							<img src="http://placehold.it/50x50">
 							<input class="primary-attribute-input" type="number" placeholder="666 - 666">
 						</div>
-						<div class="col-33">
+						<div class="col-md-4">
 							<input class="primary-attribute-input" type="number" placeholder="666 - 666">
 						</div>
-						<div class="col-33">
+						<div class="col-md-4">
 							<input class="primary-attribute-input" type="number" placeholder="666 - 666">
 						</div>
 					</div>
@@ -34,21 +32,19 @@
 					<a class="bonus-select">Select a bonus</a>
 					<a class="bonus-select">Select a bonus</a>
 					<a class="bonus-select">Select a bonus</a>
-	  			</div>
 	  		</div>
-	  		<div class="col-33">
-	  			<div class="gear">
-	  			</div>
-	  		</div>
-	  		<div class="col-33">
-	  			<div class="gear">
-	  			</div>
-	  		</div>
+  		</div>
+      <div class="col-md-4">
+        <div class="gear"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="gear"></div>
+      </div>
 		</div>
-  	</div>
+	</div>
 
-  	<!-- Include javascript -->
-  	<script src="js/jquery.min.js"></script>
-  	<script src="js/divisionplanner.js"></script>
-  </body>
-  </html>
+	<!-- Include javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/divisionplanner.js"></script>
+</body>
+</html>
