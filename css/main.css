@@ -15,6 +15,10 @@ a {
 	font-weight: 700;
 }
 
+h1 {
+	margin: 0;
+}
+
 .wrapper {
 	background-color: #fff;
 	height: 800px;
@@ -71,6 +75,7 @@ a {
 }
 
 .stat-block {
+	text-align: center;
 	display: block;
 	background-color: #666;
 	width: 100%;
@@ -102,4 +107,8 @@ a {
 
 .bonus-select:hover {
 	background-color: #8c8c8c;
+}
+
+.primary-attribute-input {
+	width: 100%;
 }
